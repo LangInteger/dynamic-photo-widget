@@ -548,6 +548,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = LangInteger;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -589,6 +590,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = LangInteger;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -716,7 +718,7 @@
 				DEVELOPMENT_TEAM = LQL7BV3A4A;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LangWidget/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = LangWidget;
+				INFOPLIST_KEY_CFBundleDisplayName = LangInteger;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -747,7 +749,7 @@
 				DEVELOPMENT_TEAM = LQL7BV3A4A;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LangWidget/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = LangWidget;
+				INFOPLIST_KEY_CFBundleDisplayName = LangInteger;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
