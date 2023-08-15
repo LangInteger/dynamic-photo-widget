@@ -95,10 +95,12 @@ private struct Provider: TimelineProvider {
         
         let pictureUrl = Self.pictureBaseUrl + randomLink
         
-        guard let url = URL(string: pictureUrl) else {
-            completion(nil, false, "illegal random link")
+        guard let encodedPictureUrl = pictureUrl.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed),
+              let url = URL(string: encodedPictureUrl) else {
+            completion(nil, false, "illegal random link " + pictureUrl)
             return
         }
+        
         
         if let imageData = getImageFromCache(url: url) {
             completion(imageData, true, "load from cache")
