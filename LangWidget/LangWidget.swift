@@ -91,7 +91,7 @@ private struct Provider: TimelineProvider {
         return (randomLink, counterText, pictureDate)
     }
     
-    private static let metaUrlString = "https://raw.githubusercontent.com/LangInteger/LangInteger.github.io/master/photos/data.json"
+    private static let metaUrlString = "https://raw.githubusercontent.com/langinteger/blog_photos/main/data.json"
     private static let pictureBaseUrl = "https://raw.githubusercontent.com/LangInteger/blog_photos/main/min_photos/"
     private static let UNKNOWN_DATE = "Unknown Date"
     private func loadImageData(completion: @escaping (Data?, Bool, String, String, String) -> Void) {
@@ -198,8 +198,8 @@ struct URLCachedImageWidget: Widget {
         StaticConfiguration(kind: kind, provider: Provider()) { entry in
             URLCachedImageWidgetEntryView(entry: entry)
         }
-        .configurationDisplayName("URLCachedImage Widget")
-        .description("A Widget that displays an Image downloaded from an external URL and caches it.")
+        .configurationDisplayName("Dynamic Photo Widget")
+        .description("A Widget that displays an Image downloaded from github hosted photo library.")
         .supportedFamilies([.systemSmall, .systemMedium, .systemLarge])
     }
 }
