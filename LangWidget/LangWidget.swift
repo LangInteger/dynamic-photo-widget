@@ -173,7 +173,7 @@ private struct URLCachedImageWidgetEntryView: View {
                     VStack{
                         Text(entry.topic).font(family == .systemSmall ? .system(size: 12).weight(.semibold)
                                                : .system(size: 16).weight(.semibold)).lineLimit(1).foregroundColor(Color.white)
-                        Text("2023-08").font(family == .systemSmall ? .system(size: 12).weight(.semibold)
+                        Text(entry.pictureDate).font(family == .systemSmall ? .system(size: 12).weight(.semibold)
                                              : .system(size: 16).weight(.semibold)).lineLimit(1).foregroundColor(Color.white)
                     }
                     Spacer()
