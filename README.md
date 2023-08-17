@@ -2,6 +2,10 @@
 
 This is a project to build your own dynamic photo widget app for iOS 14+. It will randomly display your own photos hosted on a github repository.
 
+The widget app works like this:
+
+![](./demo_compressed.gif)
+
 ## 0 PreRequisite
 
 You must have a valid Apple Developer acount to build this app to your iPhone.
