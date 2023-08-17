@@ -1,6 +1,6 @@
-# Dynamic Picture Widget
+# Dynamic Photo Widget
 
-This is a project to build your own dynamic picture widget for iOS 14+. It will randomly display your own photos hosted on a github repository.
+This is a project to build your own dynamic photo widget app for iOS 14+. It will randomly display your own photos hosted on a github repository.
 
 ## 0 PreRequisite
 
@@ -10,7 +10,7 @@ You must have a valid Apple Developer acount to build this app to your iPhone.
 
 ### 1.1 Setup Github Repository for Photos
 
-Clone the [demo_photos_gallary](https://github.com/LangInteger/demo_photos_gallary) repository. Delete the `.git` folder, reInit it and push to your own github account. Put your photos in the `photos` folder, name of pictures should match this pattern:
+Clone the [demo_photos_gallary](https://github.com/LangInteger/demo_photos_gallary) repository. Delete the `.git` folder, reInit it and push to your own github account. Put your photos in the `photos` folder, name of photos should match this pattern:
 
 ```text
 Pattern: yyyy-MM-dd_title_seq.type
@@ -68,4 +68,8 @@ In `./LangWidget/LangWidget.swift`, the code
 let nextDate = Calendar.current.date(byAdding: .minute, value: 1, to: currentDate)!
 ```
 
-aims to refresh the picture displayed on widget every one minute. It may work in this way when you build app to your iPhone with it plugined to computer. But in daily use, there is limitations from iOS that set a daily refresh budget for one widget. The typically daily budget is 45 - 70, so you should not expect refresh happens every one minute. You may adjust the code to match your own requirement.
+aims to refresh the photo displayed on widget every one minute. It may work in this way when you build app to your iPhone with it plugined to computer. But in daily use, there is limitation from iOS that set a daily refresh budget for every widget. The typically daily budget is 45 - 70, so you should not expect refresh happens every one minute. You may adjust the code to match your own requirement.
+
+### 2.2 Privacy
+
+As the repository storing photos created in step 1.1 is designed to be public, please do not upload photoes those you want to keep them private, or others can get access to the photos just as you.
