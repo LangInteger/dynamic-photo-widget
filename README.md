@@ -73,3 +73,8 @@ aims to refresh the photo displayed on widget every one minute. It may work in t
 ### 2.2 Privacy
 
 As the repository storing photos created in step 1.1 is designed to be public, please do not upload photoes those you want to keep them private, or others can get access to the photos just as you.
+
+## 3 TODO
+
+- [ ] make the `metaUrlString` and `pictureBaseUrl` configurable
+- [ ] display cached picture when access to network failed
