@@ -82,3 +82,10 @@ As the repository storing photos created in step 1.1 is designed to be public, p
 
 - [ ] make the `metaUrlString` and `pictureBaseUrl` configurable
 - [ ] display cached picture when access to network failed
+
+## 4 Thanks to
+
+- [blog-Picture
+  ](https://github.com/ChemLez/blog-Picture)
+- [WidgetExamples
+  ](https://github.com/pawello2222/WidgetExamples)
