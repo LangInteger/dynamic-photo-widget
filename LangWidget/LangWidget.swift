@@ -91,8 +91,8 @@ private struct Provider: TimelineProvider {
         return (randomLink, counterText, pictureDate)
     }
     
-    private static let metaUrlString = "https://raw.githubusercontent.com/langinteger/blog_photos/main/data.json"
-    private static let pictureBaseUrl = "https://raw.githubusercontent.com/LangInteger/blog_photos/main/min_photos/"
+    private static let metaUrlString = "https://raw.githubusercontent.com/langinteger/demo_photos_gallary/main/data.json"
+    private static let pictureBaseUrl = "https://raw.githubusercontent.com/langinteger/demo_photos_gallary/main/min_photos/"
     private static let UNKNOWN_DATE = "Unknown Date"
     private func loadImageData(completion: @escaping (Data?, Bool, String, String, String) -> Void) {
         guard let metaUrl = URL(string: Self.metaUrlString) else {
